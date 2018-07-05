@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Riot'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Riot.'
+  s.version          = '0.0.1'
+  s.summary          = 'Riot API.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,19 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Riot API from League of Legends'
 
-  s.homepage         = 'https://github.com/Helbert Gomes/Riot'
+  s.homepage         = 'https://github.com/hellbertt/Riot'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Helbert Gomes' => 'helbert.gomes@sympla.com.br' }
-  s.source           = { :git => 'https://github.com/Helbert Gomes/Riot.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Helbert Gomes' => 'hellbert.gomes@gmail.com' }
+  s.source           = { :git => 'https://github.com/hellbertt/Riot.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/helbertgs'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'Riot/Classes/**/*'
+  s.swift_version = '4.0'
   
   # s.resource_bundles = {
   #   'Riot' => ['Riot/Assets/*.png']

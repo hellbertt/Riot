@@ -1,6 +1,5 @@
 # Riot
 
-[![CI Status](https://img.shields.io/travis/Helbert Gomes/Riot.svg?style=flat)](https://travis-ci.org/Helbert Gomes/Riot)
 [![Version](https://img.shields.io/cocoapods/v/Riot.svg?style=flat)](https://cocoapods.org/pods/Riot)
 [![License](https://img.shields.io/cocoapods/l/Riot.svg?style=flat)](https://cocoapods.org/pods/Riot)
 [![Platform](https://img.shields.io/cocoapods/p/Riot.svg?style=flat)](https://cocoapods.org/pods/Riot)
@@ -22,7 +21,7 @@ pod 'Riot'
 
 ## Author
 
-Helbert Gomes, helbert.gomes@sympla.com.br
+Helbert Gomes, hellbert.gomes@gmail.com
 
 ## License
 
