@@ -1,0 +1,22 @@
+{
+  "name": "Riot",
+  "version": "0.1.0",
+  "summary": "A short description of Riot.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Helbert Gomes/Riot",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Helbert Gomes": "helbert.gomes@sympla.com.br"
+  },
+  "source": {
+    "git": "https://github.com/Helbert Gomes/Riot.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Riot/Classes/**/*"
+}
