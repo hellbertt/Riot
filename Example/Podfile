@@ -1,6 +1,9 @@
+platform :ios, '11.0'
+
 use_frameworks!
 target 'Riot_Tests' do
   pod 'Riot', :path => '../'
+  pod 'Suas'
   
   pod 'Quick', '~> 1.2.0'
     pod 'Nimble', '~> 7.0.2'

@@ -1,17 +1,20 @@
 PODS:
   - Nimble (7.0.3)
   - Quick (1.2.0)
-  - Riot (0.1.0)
+  - Riot (0.0.1)
+  - Suas (1.0.0)
 
 DEPENDENCIES:
   - Nimble (~> 7.0.2)
   - Quick (~> 1.2.0)
   - Riot (from `../`)
+  - Suas
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Nimble
     - Quick
+    - Suas
 
 EXTERNAL SOURCES:
   Riot:
@@ -20,8 +23,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  Riot: 47b411457d2ae8275428a94b484a089e02db69be
+  Riot: dcb87062f4ea4e0ac95419bd7e1c99b88a780e9f
+  Suas: 40dafb962f1ad813fd8d7a248bbf681fb18f4034
 
-PODFILE CHECKSUM: 8df0266b6d7acc365bbbb9139337ff3228f4915c
+PODFILE CHECKSUM: d9543acc314b6b605e38ebb2778117000c2c2da1
 
 COCOAPODS: 1.5.3
