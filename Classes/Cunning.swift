@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Cunning: Codable {
-    let masteryID, prereq: String
+public struct Cunning: Codable {
+    public let masteryID, prereq: String
 
     enum CodingKeys: String, CodingKey {
         case masteryID = "masteryId"

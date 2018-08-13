@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Translation: Codable {
-    let locale: String
-    let content: String
-    let updatedAt: String
+public struct Translation: Codable {
+    public let locale: String
+    public let content: String
+    public let updatedAt: String
 
     enum CodingKeys: String, CodingKey {
         case locale, content

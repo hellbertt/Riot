@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Incident: Codable {
-    let id: Int
-    let active: Bool
-    let createdAt: String
-    let updates: [Update]
+public struct Incident: Codable {
+    public let id: Int
+    public let active: Bool
+    public let createdAt: String
+    public let updates: [Update]
 
     enum CodingKeys: String, CodingKey {
         case id, active

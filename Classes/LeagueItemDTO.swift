@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct LeagueItemDTO: Codable {
-    let playerOrTeamID, playerOrTeamName: String
-    let leaguePoints: Int
-    let rank: String
-    let wins, losses: Int
-    let veteran, inactive, freshBlood, hotStreak: Bool
-    let miniSeries: MiniSeriesDTO?
+public struct LeagueItemDTO: Codable {
+    public let playerOrTeamID, playerOrTeamName: String
+    public let leaguePoints: Int
+    public let rank: String
+    public let wins, losses: Int
+    public let veteran, inactive, freshBlood, hotStreak: Bool
+    public let miniSeries: MiniSeriesDTO?
 
     enum CodingKeys: String, CodingKey {
         case playerOrTeamID = "playerOrTeamId"

@@ -9,11 +9,11 @@ import Foundation
 
 typealias LeaguePositionDTO = [LeaguePosition]
 
-struct LeaguePosition: Codable {
-    let leagueID, leagueName, tier, queueType: String
-    let rank, playerOrTeamID, playerOrTeamName: String
-    let leaguePoints, wins, losses: Int
-    let veteran, inactive, freshBlood, hotStreak: Bool
+public struct LeaguePosition: Codable {
+    public let leagueID, leagueName, tier, queueType: String
+    public let rank, playerOrTeamID, playerOrTeamName: String
+    public let leaguePoints, wins, losses: Int
+    public let veteran, inactive, freshBlood, hotStreak: Bool
 
     enum CodingKeys: String, CodingKey {
         case leagueID = "leagueId"

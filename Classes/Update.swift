@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Update: Codable {
-    let id, author, content, severity: String
-    let createdAt, updatedAt: String
-    let translations: [Translation]
+public struct Update: Codable {
+    public let id, author, content, severity: String
+    public let createdAt, updatedAt: String
+    public let translations: [Translation]
 
     enum CodingKeys: String, CodingKey {
         case id, author, content, severity

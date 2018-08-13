@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct LeagueListDTO: Codable {
-    let name, tier, queue, leagueID: String
-    let entries: [LeagueItemDTO]
+public struct LeagueListDTO: Codable {
+    public let name, tier, queue, leagueID: String
+    public let entries: [LeagueItemDTO]
 
     enum CodingKeys: String, CodingKey {
         case name, tier, queue

@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Tree: Codable {
-    let ferocity, cunning, resolve: [[Cunning]]
+public struct Tree: Codable {
+    public let ferocity, cunning, resolve: [[Cunning]]
 
     enum CodingKeys: String, CodingKey {
         case ferocity = "Ferocity"

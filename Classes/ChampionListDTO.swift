@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct ChampionListDTO: Codable {
-    let champions: [ChampionDTO]
+public struct ChampionListDTO: Codable {
+    public let champions: [ChampionDTO]
 }

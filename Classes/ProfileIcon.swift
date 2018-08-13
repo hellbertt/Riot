@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ProfileIcon: Codable {
-    let id: Int
-    let image: Image
+public struct ProfileIcon: Codable {
+    public let id: Int
+    public let image: Image
 }

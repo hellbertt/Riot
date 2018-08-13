@@ -1,7 +1,8 @@
 PODS:
   - Nimble (7.0.3)
   - Quick (1.2.0)
-  - Riot (0.0.1)
+  - Riot (0.0.2):
+    - Suas
   - Suas (1.0.0)
 
 DEPENDENCIES:
@@ -23,7 +24,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  Riot: dcb87062f4ea4e0ac95419bd7e1c99b88a780e9f
+  Riot: a507d813bd86479a0f2a205d3bd8f5222b2743ea
   Suas: 40dafb962f1ad813fd8d7a248bbf681fb18f4034
 
 PODFILE CHECKSUM: d9543acc314b6b605e38ebb2778117000c2c2da1

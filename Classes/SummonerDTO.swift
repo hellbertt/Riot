@@ -34,4 +34,15 @@ public struct SummonerDTO: Codable {
         case accountID = "accountId"
         case id, revisionDate
     }
+
+    // MARK: Constructor(s).
+
+    init(profileIconID: Int = 0, name: String = "", summonerLevel: Int = 0, accountID: Int = 0, id: Int = 0, revisionDate: Int = 0) {
+        self.profileIconID = profileIconID
+        self.name = name
+        self.summonerLevel = summonerLevel
+        self.accountID = accountID
+        self.id = id
+        self.revisionDate = revisionDate
+    }
 }
