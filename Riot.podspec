@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Riot/Classes/**/*'
   s.swift_version = '4.0'
 
-  s.subscpec 'Redux' do |sp|
+  s.subspec 'Redux' do |sp|
     sp.source_files = 'Riot/Redux'
 
     sp.dependency 'Suas'

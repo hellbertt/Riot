@@ -7,7 +7,7 @@
 //
 
 import Nimble
-import Riot
+@testable import Riot
 import XCTest
 
 class SummonerTests: XCTestCase {

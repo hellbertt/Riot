@@ -1,11 +1,16 @@
 PODS:
+  - Alamofire (4.7.3)
   - Nimble (7.0.3)
   - Quick (1.2.0)
-  - Riot (0.0.2):
+  - Riot (0.0.3):
+    - Riot/Redux (= 0.0.3)
+  - Riot/Redux (0.0.3):
+    - Alamofire
     - Suas
   - Suas (1.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Nimble (~> 7.0.2)
   - Quick (~> 1.2.0)
   - Riot (from `../`)
@@ -13,6 +18,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - Nimble
     - Quick
     - Suas
@@ -22,11 +28,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  Riot: a507d813bd86479a0f2a205d3bd8f5222b2743ea
+  Riot: 3a6ae4d2c508b4c837003b983dd76748daa61e87
   Suas: 40dafb962f1ad813fd8d7a248bbf681fb18f4034
 
-PODFILE CHECKSUM: d9543acc314b6b605e38ebb2778117000c2c2da1
+PODFILE CHECKSUM: 74a1113d79ed6174612dafb8d9549b8b1d48c66a
 
 COCOAPODS: 1.5.3

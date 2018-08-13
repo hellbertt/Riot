@@ -1,6 +1,6 @@
 {
   "name": "Riot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "Riot API.",
   "description": "Riot API from League of Legends",
   "homepage": "https://github.com/hellbertt/Riot",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hellbertt/Riot.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "social_media_url": "https://twitter.com/helbertgs",
   "platforms": {
@@ -21,9 +21,18 @@
   },
   "source_files": "Riot/Classes/**/*",
   "swift_version": "4.0",
-  "dependencies": {
-    "Suas": [
+  "subspecs": [
+    {
+      "name": "Redux",
+      "source_files": "Riot/Redux",
+      "dependencies": {
+        "Suas": [
 
-    ]
-  }
+        ],
+        "Alamofire": [
+
+        ]
+      }
+    }
+  ]
 }
