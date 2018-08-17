@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/helbertgs'
 
   s.ios.deployment_target = '11.0'
-  s.source_files = 'Riot/Classes/**/*'
+  s.source_files = 'Riot/Classes/Common/**/*'
   s.swift_version = '4.0'
 
   s.subspec 'Redux' do |sp|
-    sp.source_files = 'Riot/Redux'
+    sp.source_files = 'Riot/Classes/Redux/**/*'
 
     sp.dependency 'Suas'
     sp.dependency 'Alamofire'
