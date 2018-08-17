@@ -7,4 +7,4 @@
 
 import Suas
 
-public let riot = Suas.createStore(reducer: RiotReducer(), middleware: LoggerMiddleware() + AlamofireMiddleware())
+public let riot = Suas.createStore(reducer: RiotReducer(), middleware: AlamofireMiddleware())
