@@ -47,5 +47,4 @@ public struct SummonerDTO: Codable {
         self.id = id
         self.revisionDate = revisionDate
     }
-
 }

@@ -21,7 +21,6 @@
 		17C8EE7DF3F57C8F99EAF63C6E61EA99 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266253179A7529F009A6AEF77670426A /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1A3E19B9F5EEB773C3BB61CA42F8BF62 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93B56012203D1193803C330F98E1C0A /* DSL.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD828BFDA056BEABCE3996A4330476D /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E12BA2D3A9F1890DF55D0307ED3B954 /* SummonerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF18AB55E0AD10F63B98A6ACFD4585 /* SummonerDTO.swift */; };
 		1E1CE28FFCCD7499620B47C910E9B9E9 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322B9ACF9E51E9CA5A1553DF3AA424FE /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		22E9F6FA56858A5F7A5D664E5968ECB0 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B52CC46B3E3C99670C75A0985F947C5 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23B6060195952BB4C7F16EE899F097A9 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4861D38259B6A799E48723834DC76B9 /* Common.swift */; };
@@ -116,6 +115,7 @@
 		8DD54A542127421200DC92CF /* RiotState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD54A532127421200DC92CF /* RiotState.swift */; };
 		8DD54A562127434900DC92CF /* RiotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD54A552127434900DC92CF /* RiotStore.swift */; };
 		8DD54A582127436F00DC92CF /* RiotReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD54A572127436F00DC92CF /* RiotReducer.swift */; };
+		8DD54A5921274AB000DC92CF /* SummonerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF18AB55E0AD10F63B98A6ACFD4585 /* SummonerDTO.swift */; };
 		8EA1CF041CD78C69FACD75BDC5D417DB /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1A063DDF57951185B8075F38608FE /* Store.swift */; };
 		8F0BE23417C4869EF5279463158A7F4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59575E3789BF45D7CB760F034FB2DC00 /* Foundation.framework */; };
 		91D34430710AC360BAE2E44B1C15A80F /* StoreDeinitCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32D19026120DB72CEB985B74623EE9 /* StoreDeinitCallback.swift */; };
@@ -1195,13 +1195,13 @@
 				2B3267EC17BB47EE0DD5DE6D07FC5202 /* ProfileIcon.swift in Sources */,
 				CB957C5267F9C5A19EA9F529455B9A09 /* ProfileIconDTO.swift in Sources */,
 				7958A5A0E4D07B2553B52E383455F003 /* Riot-dummy.m in Sources */,
+				8DD54A5921274AB000DC92CF /* SummonerDTO.swift in Sources */,
 				59CD8CBC7EB179C532F1695EACA86385 /* Season.swift in Sources */,
 				DF79A588E921BD3AE9A6EF6109F2CE54 /* Service.swift in Sources */,
 				07D8D45BEF313F5273A41E41FDB9DF39 /* ServiceProxy.swift in Sources */,
 				8DD54A582127436F00DC92CF /* RiotReducer.swift in Sources */,
 				93DA9F94DD8E78ADBEBCF8C08C95CA9A /* ShardStatus.swift in Sources */,
 				52AB3A3EE8ECCFECF852793292F7C511 /* SummonerAction.swift in Sources */,
-				1E12BA2D3A9F1890DF55D0307ED3B954 /* SummonerDTO.swift in Sources */,
 				CCB1190CF31C6A547BE70DFF6B607109 /* Translation.swift in Sources */,
 				569CA1B9B3779542BD9EF382A35F07CD /* Tree.swift in Sources */,
 				8DA318DB212256CC00788837 /* RiotRequest.swift in Sources */,

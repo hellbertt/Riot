@@ -5,18 +5,19 @@
 //  Created by Helbert Gomes on 17/08/18.
 //
 
+import Riot
 import Suas
 
-class RiotReducer: Reducer {
-    typealias StateType = RiotState
+public class RiotReducer: Reducer {
+    public typealias StateType = RiotState
 
-    var initialState: RiotState
+    public var initialState: RiotState
 
     init() {
         initialState = RiotState(summoner: SummonerDTO())
     }
 
-    func reduce(state: RiotState, action: Action) -> RiotState? {
+    public func reduce(state: RiotState, action: Action) -> RiotState? {
         return state
     }
 }

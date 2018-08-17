@@ -5,8 +5,9 @@
 //  Created by Helbert Gomes on 17/08/18.
 //
 
+import Riot
 import Foundation
 
-struct RiotState {
+public struct RiotState {
     public let summoner: SummonerDTO
 }
