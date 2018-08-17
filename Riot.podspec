@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Riot'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Riot API.'
   s.description      = 'Riot API from League of Legends'
 
