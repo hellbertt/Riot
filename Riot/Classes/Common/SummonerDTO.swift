@@ -28,6 +28,8 @@ public struct SummonerDTO: Codable {
     /// Date summoner was last modified specified as epoch milliseconds. The following events will update this timestamp: profile icon change, playing the tutorial or advanced tutorial, finishing a game, summoner name change
     public let revisionDate: Int
 
+    static let empty: SummonerDTO = SummonerDTO(profileIconID: 0, name: "", summonerLevel: 0, accountID: 0, id: 0, revisionDate: 0)
+
     enum CodingKeys: String, CodingKey {
         case profileIconID = "profileIconId"
         case name, summonerLevel
@@ -45,4 +47,5 @@ public struct SummonerDTO: Codable {
         self.id = id
         self.revisionDate = revisionDate
     }
+
 }
